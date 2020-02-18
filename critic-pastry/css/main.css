@@ -97,9 +97,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 header
 {
-  /* background-color: #b3d4fc; */
   height: 60px;
   background-color: lavender;
 }
@@ -121,16 +121,10 @@ input,
 label {
   margin: .4rem 0;
 }
-
-/* .link
-{
-  background-color: lavender;
-} */
-
 li
 {
   display: inline;
-  /* border-style: solid; */
+  
 }
 
 h1, h2
@@ -163,21 +157,18 @@ h1, h2
 {
   background-color: rgb(221, 233, 238);
 } 
-/* .article
+.image1
 {
-  background-color: rgb(165, 162, 162);
-  
-} */
+  width: 100%;
+  height: auto;
+}
+
 .column
 {
   display: flex;
-  
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
 }
 .col1
 {
-  
   border-style: solid;
   border-color: rgb(165, 162, 162);
   float: right;
@@ -186,7 +177,6 @@ h1, h2
 }
 .col2
 {
-  
   border-style: solid;
   border-color: rgb(165, 162, 162);
   text-align: center;
@@ -194,7 +184,6 @@ h1, h2
 }
 .col3
 {
-  
   border-style: solid;
   border-color: rgb(165, 162, 162);
   text-align: center;
@@ -207,40 +196,24 @@ h1, h2
 .sectionlink
 {
   margin-right: 10%;
-  margin-left: 10%;
-  /* background-color: rgb(165, 162, 162); */
-  
-
- 
+  margin-left: 10%; 
 }
 .linkfooter
 {
   display: flex;
-  justify-content: space-between;
-
-  /* justify-content: space-between; */
-  /* margin-right: 10%;
-  margin-left: 10%; */
-  
+  justify-content: space-between; 
 }
 .col1link
 {
-  
-  
   float: right;
   text-align: center;
 }
 .col2link
 {
-  
-  
   text-align: center;
 }
 .col3link
 {
-  
-  
-  
   text-align: center;
 }
 .lifooter > li
@@ -269,6 +242,107 @@ footer
 {
   background-color: lavender;
 }
+
+/* ==========================================================================================
+               other device mobile and tablette
+========================================================================================== */
+
+/*----Code pour format de smartphone----*/
+
+@media(min-width: 460px) and (max-width: 600px)
+{
+.search
+ 
+{
+  display: none;
+}
+li
+{
+  display: list-item;
+  list-style: none;
+}
+.image1
+
+{
+  width: 100%;
+  height: auto;
+}
+.callto
+{
+  display: none;
+}
+.linkfooter
+{
+  display: none;
+}
+.column
+{
+  flex-wrap: wrap;
+}
+.iconelink
+{
+  list-style: none;
+  display: inline-flex;
+}
+}
+/* ========================================================================== */
+
+/*------Code pour format de tablette----*/
+@media(min-width: 601px) and (max-width: 1000px)
+{
+  .callto
+{
+  display: none;
+}
+.linkfooter
+{
+  display: none;
+}
+.image1
+
+{
+  width: 100%;
+  height: auto;
+}
+.column
+{
+  /* justify-content: center; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.col1
+{
+  width: 300px;
+  height: auto;
+  border-style: solid;
+  border-color: rgb(165, 162, 162);
+  
+  text-align: center;
+  background-color: rgb(221, 233, 238);
+}
+.col2
+{
+  width: 300px;
+  height: auto;
+  border-style: solid;
+  border-color: rgb(165, 162, 162);
+  text-align: center;
+  background-color: rgb(221, 233, 238);
+}
+.col3
+{
+  justify-content: space-around;
+  width: 300px;
+  height: auto;
+  /* float: center; */
+  align-self: flex-end;
+  border-style: solid;
+  border-color: rgb(165, 162, 162);
+  text-align: center;
+  background-color: rgb(221, 233, 238); 
+}
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
