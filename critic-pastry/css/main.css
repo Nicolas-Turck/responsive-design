@@ -99,8 +99,9 @@ textarea {
    ========================================================================== */
 header
 {
-  background-color: #b3d4fc;
-  height: 50px;
+  /* background-color: #b3d4fc; */
+  height: 60px;
+  background-color: lavender;
 }
 .iconsite
 {
@@ -112,48 +113,61 @@ header
   float: right;
   margin-right: 20px;
 }
-
+main
+{
+  background-color: rgb(221, 233, 238);
+}
 input,
 label {
   margin: .4rem 0;
 }
-.link
+
+/* .link
 {
-  background-color: yellowgreen;
-}
+  background-color: lavender;
+} */
 
 li
 {
   display: inline;
-  border-style: solid;
+  /* border-style: solid; */
 }
 
 h1, h2
 {
   text-align: center;
   font-size: 2em;
-  color: black;
+  color:purple;
 }
 .centerpage
 {
   margin-right: 10%;
   margin-left: 10%;
 }
+.images:hover
+{
+  -webkit-transform:scale(1.25); /* Safari et Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* Internet Explorer 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform:scale(1.25);
+}
 .callto
 {
   display: flex;
   justify-content: space-between;
   text-align: center;
+  background-color: rgb(221, 233, 238);
 }
 .textimg
 {
-  background-color: yellow;
-}
-.article
+  background-color: rgb(221, 233, 238);
+} 
+/* .article
 {
   background-color: rgb(165, 162, 162);
   
-}
+} */
 .column
 {
   display: flex;
@@ -165,27 +179,36 @@ h1, h2
 {
   
   border-style: solid;
+  border-color: rgb(165, 162, 162);
   float: right;
   text-align: center;
+  background-color: rgb(221, 233, 238);
 }
 .col2
 {
   
   border-style: solid;
+  border-color: rgb(165, 162, 162);
   text-align: center;
+  background-color: rgb(221, 233, 238);
 }
 .col3
 {
   
   border-style: solid;
-  
-  text-align: center; 
+  border-color: rgb(165, 162, 162);
+  text-align: center;
+  background-color: rgb(221, 233, 238); 
+}
+.iconelink
+{
+  float: right;
 }
 .sectionlink
 {
   margin-right: 10%;
   margin-left: 10%;
-  background-color: rgb(165, 162, 162);
+  /* background-color: rgb(165, 162, 162); */
   
 
  
@@ -227,17 +250,24 @@ h1, h2
   margin-bottom: 15px;
   width: 250px;
   text-align: center;
+  border-style: solid;
+  border-color: rgb(165, 162, 162);
 }
 h4
 {
   text-align: center;
-  border-style: solid;
+  border-style: ridge;
+  border-color: rgb(165, 162, 162);
  
 }
 .endpage
 {
   display: flex;
   justify-content: space-between;
+}
+footer
+{
+  background-color: lavender;
 }
 /* ==========================================================================
    Helper classes
