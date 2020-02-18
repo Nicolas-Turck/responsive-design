@@ -97,7 +97,66 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header
+{
+  background-color: #b3d4fc;
+}
+.link
+{
+  background-color: yellowgreen;
+}
 
+li
+{
+  display: inline;
+  border-style: solid;
+}
+
+h1, h2
+{
+  text-align: center;
+  font-size: 3em;
+  color: aliceblue;
+}
+.centerpage
+{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.callto
+{
+  background-color: yellow;
+}
+.article
+{
+  background-color: teal;
+}
+.column
+{
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+}
+.col1
+{
+  
+  border-style: solid;
+  float: right;
+  text-align: center;
+}
+.col2
+{
+  
+  border-style: solid;
+  text-align: center;
+}
+.col3
+{
+  
+  border-style: solid;
+  
+  text-align: center;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
