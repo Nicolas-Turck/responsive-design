@@ -97,6 +97,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 header
 {
   /* background-color: #b3d4fc; */
@@ -165,8 +166,8 @@ h1, h2
 } 
 .image1
 {
-  weight: 450px;
-  height: 525px;
+  width: 100%;
+  height: auto;
 }
 /* .article
 {
@@ -281,7 +282,7 @@ footer
 
 /*----Code pour format de smartphone----*/
 
-@media(max-width: 600px)
+@media(min-width: 460px) and (max-width: 600px)
 {
 .search
  
@@ -296,8 +297,8 @@ li
 .image1
 
 {
-  width: 450px;
-  height: 200px;
+  width: 100%;
+  height: auto;
 }
 .callto
 {
@@ -317,9 +318,26 @@ li
   display: inline-flex;
 }
 }
+/* ========================================================================== */
 
+/*------Code pour format de tablette----*/
+@media(min-width: 601px) and (max-width: 1000px)
+{
+  .callto
+{
+  display: none;
+}
+.linkfooter
+{
+  display: none;
+}
+.image1
 
-
+{
+  width: 100%;
+  height: auto;
+}
+}
 
 /* ==========================================================================
    Helper classes
