@@ -163,6 +163,11 @@ h1, h2
 {
   background-color: rgb(221, 233, 238);
 } 
+.image1
+{
+  weight: 450px;
+  height: 525px;
+}
 /* .article
 {
   background-color: rgb(165, 162, 162);
@@ -283,7 +288,34 @@ footer
 {
   display: none;
 }
+li
+{
+  display: list-item;
+  list-style: none;
+}
+.image1
 
+{
+  width: 450px;
+  height: 200px;
+}
+.callto
+{
+  display: none;
+}
+.linkfooter
+{
+  display: none;
+}
+.column
+{
+  flex-wrap: wrap;
+}
+.iconelink
+{
+  list-style: none;
+  display: inline-flex;
+}
 }
 
 
