@@ -108,11 +108,18 @@ header
   float: left;
   margin-left: 20px;
 }
+/* .logicon
+{
+  float:right;
+} */
 .search
 {
   float: right;
+  display: flex;
+  align-items: baseline;
   margin-right: 20px;
 }
+
 main
 {
   background-color: rgb(221, 233, 238);
@@ -249,12 +256,19 @@ footer
 
 /*----Code pour format de smartphone----*/
 
-@media(min-width: 460px) and (max-width: 600px)
+@media(min-width: 260px) and (max-width: 600px)
 {
-.search
- 
+.searchbar
 {
   display: none;
+}
+.searchicon
+{
+  display: none;
+}
+input
+{
+  display:none;
 }
 li
 {
