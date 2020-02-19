@@ -108,10 +108,6 @@ header
   float: left;
   margin-left: 20px;
 }
-/* .logicon
-{
-  float:right;
-} */
 .search
 {
   float: right;
@@ -119,7 +115,146 @@ header
   align-items: baseline;
   margin-right: 20px;
 }
+.searchbar
+{
+  display: none;
+}
+.searchicon
+{
+  display: none;
+}
+input
+{
+  display:none;
+}
+li
+{
+  display: list-item;
+  list-style: none;
+}
+main
+{
+  background-color: rgb(221, 233, 238);
+}
+h1, h2
+{
+  text-align: center;
+  font-size: 2em;
+  color:purple;
+}
+.image1
 
+{
+  width: 100%;
+  height: auto;
+}
+.centerpage
+{
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.callto
+{
+  display: none;
+}
+.linkfooter
+{
+  display: none;
+}
+.column
+{
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.col1
+{
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(165, 162, 162);
+  background-color: rgb(221, 233, 238);
+  
+}
+.col2
+{
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(165, 162, 162);
+  background-color: rgb(221, 233, 238);
+ 
+}
+.col3
+{
+  text-align: center;
+  border-style: solid;
+  border-color: rgb(165, 162, 162);
+  background-color: rgb(221, 233, 238);
+  
+}
+.iconelink > li
+{
+  /* float: right; */
+  /* flex-wrap: wrap; */
+  display: inline; 
+  
+}
+
+h4
+{
+  text-align: center;
+  border-style: ridge;
+  border-color: rgb(165, 162, 162);
+ 
+}
+.endpage
+{
+  display: flex;
+  justify-content: space-between;
+}
+footer
+{
+  background-color: lavender;
+}
+.linkfooter
+{
+  display: none;
+}
+
+/* ================================================================================
+                     desktop device
+================================================================================= */
+
+@media(min-width: 1001px)
+{
+header
+{
+  height: 60px;
+  background-color: lavender;
+}
+.iconsite
+{
+  float: left;
+  margin-left: 20px;
+}
+
+.search
+{
+  float: right;
+  display: flex;
+  align-items: baseline;
+  margin-right: 20px;
+}
+.searchbar
+{
+  display: inline;
+}
+input
+{
+  display: inline;
+}
+.searchicon
+{
+  display: inline;
+}
 main
 {
   background-color: rgb(221, 233, 238);
@@ -173,6 +308,8 @@ h1, h2
 .column
 {
   display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
 }
 .col1
 {
@@ -208,19 +345,21 @@ h1, h2
 .linkfooter
 {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-around;
 }
 .col1link
 {
-  float: right;
+  
   text-align: center;
 }
 .col2link
 {
+  
   text-align: center;
 }
 .col3link
 {
+  
   text-align: center;
 }
 .lifooter > li
@@ -249,14 +388,14 @@ footer
 {
   background-color: lavender;
 }
-
+}
 /* ==========================================================================================
-               other device mobile and tablette
+               other device large screen  and tablette
 ========================================================================================== */
 
 /*----Code pour format de smartphone----*/
 
-@media(min-width: 260px) and (max-width: 600px)
+/* @media(min-width: 260px) and (max-width: 600px)
 {
 .searchbar
 {
@@ -298,7 +437,7 @@ li
   list-style: none;
   display: inline-flex;
 }
-}
+} */
 /* ========================================================================== */
 
 /*------Code pour format de tablette----*/
