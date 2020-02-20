@@ -389,55 +389,7 @@ footer
   background-color: lavender;
 }
 }
-/* ==========================================================================================
-               other device large screen  and tablette
-========================================================================================== */
 
-/*----Code pour format de smartphone----*/
-
-/* @media(min-width: 260px) and (max-width: 600px)
-{
-.searchbar
-{
-  display: none;
-}
-.searchicon
-{
-  display: none;
-}
-input
-{
-  display:none;
-}
-li
-{
-  display: list-item;
-  list-style: none;
-}
-.image1
-
-{
-  width: 100%;
-  height: auto;
-}
-.callto
-{
-  display: none;
-}
-.linkfooter
-{
-  display: none;
-}
-.column
-{
-  flex-wrap: wrap;
-}
-.iconelink
-{
-  list-style: none;
-  display: inline-flex;
-}
-} */
 /* ========================================================================== */
 
 /*------Code pour format de tablette----*/
