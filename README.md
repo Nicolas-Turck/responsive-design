@@ -14,7 +14,7 @@ years now. Currently a budget controller for the public sector,
 Emmanuel is passionate about pastry making and would one day want   
 to become a pastry critic. In the meantime, he / she wants to start   
 a site that will act as a blog to post reviews, recipes, get in   
-touch or even allow users to suggest their recipes and share their passion.
+touch or even allow users to suggest their recipes and share their passion.  
 For now, he / she would like to obtain the home page or home page   
 of the site first, if the result is satisfactory, then your agency   
 will continue the work. Be careful however, pastry chefs are often   
