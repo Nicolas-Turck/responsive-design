@@ -142,14 +142,18 @@ main
 {
   background-color: white;
 }
+.image3> style
+{
+  display: none;
+}
 h1, h2
 {
   text-align: center;
   font-size: 2em;
   color:purple;
 }
-.image1
 
+.image1
 {
   width: 100%;
   height: auto;
@@ -168,13 +172,14 @@ h1, h2
 {
   display: none;
 }
-.column
+/* .column
 {
-  /* display: flex;
-  flex-wrap: wrap; */
-}
+  display: flex;
+  flex-wrap: wrap;
+} */
 .col1
 {
+  justify-content: flex-end;
   text-align: center;
   border-style: solid;
   border-color: rgb(165, 162, 162);
@@ -197,13 +202,15 @@ h1, h2
   background-color: rgb(221, 233, 238);
   
 }
-.iconelink > li
+li
 {
-  /* float: right; */
-  /* flex-wrap: wrap; */
-  display: inline; 
+  display: inline;
   
-}
+} 
+/* .iconelink
+{
+  float: right;
+} */
 
 h4
 {
@@ -230,6 +237,7 @@ footer
 
 @media(min-width: 1001px)
 {
+.image3{background-image: url(../img/ban.png);}
 header
 {
   height: 60px;
@@ -275,14 +283,14 @@ li
 {
   display: inline;
   
-}
-
+} 
 h1, h2
 {
   text-align: center;
   font-size: 2em;
   color:purple;
 }
+
 .centerpage
 {
   margin-right: 10%;
@@ -317,7 +325,7 @@ h1, h2
 {
   display: flex;
   justify-content: space-around;
-  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap;  */
 }
 .col1
 {
@@ -403,6 +411,17 @@ footer
   .callto
 {
   display: none;
+}
+
+h1, h2
+{
+  text-align: center;
+  font-size: 2em;
+  color:purple;
+}
+.image3
+{
+  background-image: url(../img/ban.png);
 }
 .linkfooter
 {
