@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  background-color: #B5D9D8;
 }
 
 /*
@@ -101,13 +102,14 @@ textarea {
 header
 {
   height: 60px;
-  background-color: lavender;
+  background-color: #9B8383;
 }
 .iconsite
 {
   margin-top: 20px;
   float: left;
   margin-left: 20px;
+  color: #B5D9D8;
 }
 .search
 {
@@ -116,6 +118,7 @@ header
   display: flex;
   align-items: baseline;
   margin-right: 20px;
+  color: #B5D9D8;
 }
 .searchbar
 {
@@ -140,7 +143,12 @@ li
 }
 main
 {
-  background-color: white;
+  background-color: #B5D9D8;
+}
+.texte1
+{
+  font-style: italic;
+  font-size: x-large;
 }
 .image3> style
 {
@@ -150,7 +158,7 @@ h1, h2
 {
   text-align: center;
   font-size: 2em;
-  color:purple;
+  color:#58343B;
 }
 
 .image1
@@ -181,25 +189,22 @@ h1, h2
 {
   justify-content: flex-end;
   text-align: center;
-  border-style: solid;
-  border-color: rgb(165, 162, 162);
-  background-color: rgb(221, 233, 238);
+  
+  background-color: #D17B7f;
   
 }
 .col2
 {
   text-align: center;
-  border-style: solid;
-  border-color: rgb(165, 162, 162);
-  background-color: rgb(221, 233, 238);
+  
+  background-color: #D17B7f;
  
 }
 .col3
 {
   text-align: center;
-  border-style: solid;
-  border-color: rgb(165, 162, 162);
-  background-color: rgb(221, 233, 238);
+  
+  background-color: #D17B7f;
   
 }
 li
@@ -224,7 +229,7 @@ h4
 }
 footer
 {
-  background-color: lavender;
+  background-color: #9B8383;
 }
 .linkfooter
 {
@@ -241,7 +246,7 @@ footer
 header
 {
   height: 60px;
-  background-color: lavender;
+  
 }
 .iconsite
 {
@@ -273,7 +278,7 @@ input
 }
 main
 {
-  background-color: white;
+  background-color:#B5D9D8;
 }
 input,
 label {
@@ -309,12 +314,9 @@ h1, h2
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-color: white;
+  
 }
-.textimg
-{
-  background-color: white;
-} 
+
 .image1
 {
   width: 100%;
@@ -329,25 +331,22 @@ h1, h2
 }
 .col1
 {
-  border-style: solid;
-  border-color: rgb(165, 162, 162);
+  
   float: right;
   text-align: center;
-  background-color: rgb(223, 238, 221);
+  
 }
 .col2
 {
-  border-style: solid;
-  border-color: rgb(165, 162, 162);
+  
   text-align: center;
-  background-color: rgb(223, 238, 221);
+  
 }
 .col3
 {
-  border-style: solid;
-  border-color: rgb(165, 162, 162);
+  
   text-align: center;
-  background-color: rgb(223, 238, 221); 
+   
 }
 .iconelink
 {
@@ -397,10 +396,7 @@ h4
   display: flex;
   justify-content: space-around;
 }
-footer
-{
-  background-color: lavender;
-}
+
 }
 
 /* ========================================================================== */
