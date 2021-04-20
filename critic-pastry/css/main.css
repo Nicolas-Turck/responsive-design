@@ -15,7 +15,8 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  background-color: #B5D9D8;
+ /* background-color: #B5D9D8;*/
+ background-color: ghostwhite;
 }
 
 /*
@@ -143,7 +144,7 @@ li
 }
 main
 {
-  background-color: #B5D9D8;
+  background-color: ghostwhite;
 }
 .texte1
 {
@@ -230,6 +231,9 @@ h4
 footer
 {
   background-color: #9B8383;
+  width: 100%;
+  height: 50PX;
+
 }
 .linkfooter
 {
@@ -242,10 +246,20 @@ footer
 
 @media(min-width: 1001px)
 {
-.image3{background-image: url(../img/ban.png);}
+  .main
+  {
+    background-color: ghostwhite;
+  }
+.image3
+{
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/ban.png);
+}
 header
 {
-  height: 60px;
+  height: 80px;
+  margin-bottom: 0%;
   
 }
 .iconsite
@@ -276,10 +290,7 @@ input
 
   display: inline;
 }
-main
-{
-  background-color:#B5D9D8;
-}
+
 input,
 label {
   margin: .4rem 0;
@@ -294,6 +305,8 @@ h1, h2
   text-align: center;
   font-size: 2em;
   color:purple;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .centerpage
@@ -415,9 +428,12 @@ h1, h2
   font-size: 2em;
   color:purple;
 }
+
 .image3
 {
   background-image: url(../img/ban.png);
+  width: 100%;
+  height: 100%;
 }
 .linkfooter
 {
@@ -440,19 +456,18 @@ h1, h2
 {
   width: 30%; 
   height: auto;
-  border-style: solid;
-  border-color: rgb(165, 162, 162);
+  
+  
   text-align: center;
-  background-color: rgb(214, 228, 151);
+  
 }
 .col2
 {
   width: 30%; 
   height: auto;
-  border-style: solid;
-  border-color: rgb(165, 162, 162);
+ 
   text-align: center;
-  background-color: rgb(214, 228, 151);
+  
 }
 .col3
 {
@@ -460,10 +475,9 @@ h1, h2
   width: 30%;
   height: auto;
   align-self: flex-end;
-  border-style: solid;
-  border-color: rgb(165, 162, 162);
+ 
   text-align: center;
-  background-color: rgb(214, 228, 151); 
+  
 }
 }
 
